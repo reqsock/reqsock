@@ -1,0 +1,272 @@
+# REQSOCK PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+**Version 1.1** — Effective Date: March 2026
+
+Copyright (c) 2024–2026 ReqSock. All Rights Reserved.
+
+---
+
+> **IMPORTANT — READ CAREFULLY:** This End-User License Agreement ("**Agreement**")
+> is a legal agreement between you or the entity you represent ("**Licensee**") and
+> ReqSock ("**Licensor**") for the use of the ReqSock software platform, including
+> but not limited to ReqSock Engine, ReqSock Client, ReqSock SDK, all associated
+> plugins (cPanel, DirectAdmin, Plesk, and any future integrations), binaries,
+> libraries, detection models, configuration files, documentation, and updates
+> (collectively, the "**Software**").
+>
+> By installing, copying, accessing, or otherwise using the Software, Licensee
+> agrees to be bound by the terms of this Agreement. If Licensee does not agree,
+> Licensee must not install or use the Software.
+
+---
+
+## 1. Definitions
+
+| Term | Definition |
+|------|-----------|
+| **Software** | ReqSock Engine, ReqSock Client, ReqSock SDK, all plugins, binaries, libraries, detection models, rules, signatures, documentation, and updates provided by Licensor. |
+| **Detection Assets** | YARA rules, detection model weights, heuristic signatures, whitelist databases, and any other threat intelligence data distributed with or downloaded by the Software. |
+| **Device** | A single physical or virtual machine instance identified by a unique hardware/software fingerprint. |
+| **License Key** | A unique alphanumeric credential issued by Licensor that activates the Software on a Device. |
+| **SDK** | The ReqSock Software Development Kit, provided solely for building authorized integrations with the Software. |
+| **Plugin** | A software component that extends the Software's functionality within a specific hosting control panel (cPanel, DirectAdmin, Plesk, or others). |
+
+---
+
+## 2. Grant of License
+
+Subject to the terms of this Agreement and payment of all applicable fees, Licensor grants Licensee a **limited, non-exclusive, non-transferable, non-sublicensable, revocable** license to:
+
+**(a)** Install and operate the Software on the number of Devices specified in the purchased license tier.
+
+**(b)** Use the Software solely for its intended purpose: malware detection, threat analysis, and security monitoring on systems owned by or under the direct management authority of Licensee.
+
+**(c)** Use the SDK solely for building integrations between the Software and Licensee's own infrastructure. SDK usage does not grant any rights to distribute, resell, or sublicense the Software or any derivative thereof.
+
+**(d)** Install and use Plugins exclusively in conjunction with a validly licensed instance of the Software.
+
+---
+
+## 3. Restrictions
+
+Licensee **SHALL NOT**, and shall not permit any third party to:
+
+**(a)** Copy, modify, adapt, translate, merge, or create derivative works of the Software, Detection Assets, or any component thereof.
+
+**(b)** Reverse engineer, decompile, disassemble, or attempt to derive the source code, algorithms, model architectures, training data, feature extraction logic, data structures, or underlying ideas of the Software.
+
+**(c)** Distribute, sublicense, lease, rent, loan, sell, resell, or otherwise transfer the Software, Detection Assets, or any rights therein to any third party, whether for commercial or non-commercial purposes.
+
+**(d)** Remove, alter, obscure, or tamper with any proprietary notices, labels, trademarks, watermarks, or copyright markings embedded in or associated with the Software.
+
+**(e)** Use the Software, SDK, Detection Assets, or any output thereof to develop, train, enhance, benchmark, or otherwise contribute to any product or service that competes with or substitutes for the Software.
+
+**(f)** Use the Software in any manner that violates applicable local, national, or international laws or regulations, including but not limited to data protection laws.
+
+**(g)** Share, publish, disclose, or transmit License Keys, authentication tokens, JWT credentials, device registration data, or any other access credentials to any unauthorized party.
+
+**(h)** Circumvent, disable, interfere with, or attempt to bypass any license verification, authentication, tamper detection, or security mechanism in the Software.
+
+**(i)** Use the Software on more Devices than permitted by the purchased license tier, or use a single License Key on multiple Devices unless explicitly authorized.
+
+**(j)** Extract, export, copy, or redistribute Detection Assets independently from the Software, or use Detection Assets with any third-party scanning or analysis tool.
+
+**(k)** Use the SDK to build products or services offered to third parties unless explicitly authorized in writing by Licensor.
+
+**(l)** Perform or publish performance benchmarks, security assessments, or comparative analyses of the Software without prior written consent from Licensor.
+
+---
+
+## 4. Intellectual Property
+
+The Software is protected by copyright laws, international treaty provisions, trade secret laws, and other intellectual property laws and regulations.
+
+**Licensor retains all right, title, and interest** in and to the Software, including without limitation:
+
+- All source code, object code, and binary executables.
+- All detection model architectures, weights, training methodologies, and inference logic.
+- All Detection Assets (YARA rules, signatures, whitelist databases, heuristic patterns).
+- All SDK interfaces, APIs, and plugin frameworks.
+- All documentation, design materials, and technical specifications.
+- All trademarks, service marks, trade names, and logos associated with the Software.
+
+This Agreement does not convey to Licensee any rights of ownership in or to the Software. All rights not expressly granted herein are reserved by Licensor.
+
+Any feedback, suggestions, or improvement ideas submitted by Licensee regarding the Software shall become the exclusive property of Licensor without obligation of compensation or attribution.
+
+---
+
+## 5. License Verification and Activation
+
+**(a)** The Software requires a valid License Key and successful device registration for operation. The Software will not function without completed license verification.
+
+**(b)** The Software communicates with Licensor's servers to:
+
+  - Verify the validity and status of the License Key.
+  - Register, authenticate, and fingerprint the Device.
+  - Download updated Detection Assets and model weights.
+  - Transmit anonymous, aggregate usage statistics (scan counts, detection counts).
+
+**(c)** Licensee acknowledges that persistent or periodic network connectivity to Licensor's servers is required for license verification and Detection Asset updates.
+
+**(d)** Licensor reserves the right to revoke or suspend any License Key at any time if Licensor determines, in its sole discretion, that the terms of this Agreement have been violated.
+
+---
+
+## 6. Confidentiality
+
+**(a)** Licensee acknowledges that the Software, its architecture, Detection Assets, performance characteristics, and all related technical information constitute **confidential and proprietary information** and **trade secrets** of Licensor.
+
+**(b)** Licensee shall not disclose, publish, or make available to any third party any confidential information obtained through the use of the Software, including but not limited to: detection methodologies, model behavior, scan results containing internal metadata, or API responses revealing implementation details.
+
+**(c)** This confidentiality obligation survives the termination of this Agreement and remains in effect indefinitely.
+
+---
+
+## 7. Data Collection and Privacy
+
+**(a)** The Software may collect and transmit the following data to Licensor's servers:
+
+  - Device identification information (hostname, UUID, system fingerprint).
+  - License status and validation data.
+  - Aggregate scan statistics (file counts, detection counts, scan durations).
+  - SHA256 hashes of detected files (for threat intelligence purposes).
+
+**(b)** The Software does **NOT** collect or transmit: file contents, file names (except hashes), personal data, user credentials, browsing history, or any data unrelated to its security monitoring function.
+
+**(c)** All data processing is conducted in compliance with Regulation (EU) 2016/679 (General Data Protection Regulation — **GDPR**) and applicable Spanish data protection legislation (Ley Orgánica 3/2018 — **LOPDGDD**). See Licensor's Privacy Policy at [https://reqsock.com/privacy](https://reqsock.com/privacy) for full details, including data retention periods and data subject rights.
+
+**(d)** Licensee is responsible for ensuring that its use of the Software complies with all applicable data protection regulations within Licensee's jurisdiction.
+
+---
+
+## 8. Audit Rights
+
+**(a)** Licensor reserves the right to audit Licensee's use of the Software to verify compliance with this Agreement.
+
+**(b)** Audits may be conducted remotely through the Software's license verification and telemetry systems, or through written request for a self-certification by Licensee.
+
+**(c)** If an audit reveals unauthorized use (including but not limited to excess Devices, unauthorized redistribution, or circumvention of license controls), Licensee shall promptly pay all applicable fees for such unauthorized use and reimburse Licensor's reasonable audit costs.
+
+---
+
+## 9. Updates and Support
+
+**(a)** Licensor may, at its discretion, provide updates, patches, security fixes, or new versions of the Software. All updates are subject to this Agreement unless accompanied by a separate license.
+
+**(b)** Detection Asset updates (rules, model weights, signatures) are delivered automatically when the Software is connected to Licensor's servers and the License Key is valid.
+
+**(c)** Technical support is provided according to the terms of Licensee's purchased support plan, if any.
+
+**(d)** Licensor is under no obligation to provide updates, upgrades, or technical support beyond what is specified in the applicable support plan or license tier.
+
+---
+
+## 10. Warranty Disclaimer
+
+**THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.**
+
+**LICENSOR DOES NOT WARRANT THAT:**
+
+- **THE SOFTWARE WILL DETECT ALL MALWARE, THREATS, VULNERABILITIES, OR MALICIOUS CODE.**
+- **THE SOFTWARE WILL OPERATE WITHOUT INTERRUPTION, ERROR, OR DEFECT.**
+- **THE DETECTION ASSETS WILL BE COMPLETE, ACCURATE, OR UP-TO-DATE AT ALL TIMES.**
+- **THE SOFTWARE WILL BE COMPATIBLE WITH ALL SYSTEMS, CONFIGURATIONS, OR ENVIRONMENTS.**
+
+**LICENSEE ACKNOWLEDGES THAT NO SECURITY SOFTWARE CAN GUARANTEE COMPLETE PROTECTION. THE SOFTWARE IS ONE COMPONENT OF A COMPREHENSIVE SECURITY STRATEGY AND DOES NOT REPLACE THE NEED FOR PROPER SECURITY PRACTICES, BACKUPS, AND INCIDENT RESPONSE PROCEDURES.**
+
+---
+
+## 11. Limitation of Liability
+
+**IN NO EVENT SHALL LICENSOR, ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, OR AFFILIATES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO:**
+
+- **LOSS OF DATA, REVENUE, PROFITS, OR BUSINESS OPPORTUNITIES.**
+- **BUSINESS INTERRUPTION OR DOWNTIME.**
+- **LOSS OF GOODWILL OR REPUTATION.**
+- **COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES.**
+- **DAMAGES RESULTING FROM UNDETECTED MALWARE OR FALSE POSITIVES.**
+
+**WHETHER ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.**
+
+**LICENSOR'S TOTAL AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT ACTUALLY PAID BY LICENSEE FOR THE SOFTWARE LICENSE IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM.**
+
+**THE LIMITATIONS IN THIS SECTION APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, INCLUDING EU CONSUMER PROTECTION REGULATIONS.**
+
+---
+
+## 12. Indemnification
+
+Licensee agrees to indemnify, defend, and hold harmless Licensor, its directors, officers, employees, and agents from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:
+
+**(a)** Licensee's use of the Software in violation of this Agreement.
+
+**(b)** Licensee's breach of any representation, warranty, or obligation under this Agreement.
+
+**(c)** Any third-party claim arising from Licensee's unauthorized distribution, modification, or misuse of the Software.
+
+---
+
+## 13. Termination
+
+**(a)** This Agreement is effective from the date of acceptance until terminated.
+
+**(b)** Licensor may terminate this Agreement and revoke the License Key **immediately and without notice** if Licensee breaches any term hereof.
+
+**(c)** Licensee may terminate this Agreement at any time by uninstalling the Software and destroying all copies. No refund shall be provided for the remaining license period.
+
+**(d)** Upon termination, Licensee must:
+  - Immediately cease all use of the Software, SDK, and Plugins.
+  - Uninstall and delete all copies of the Software from all Devices.
+  - Destroy all Detection Assets, documentation, and confidential materials.
+  - Certify in writing, upon request, that all copies have been destroyed.
+
+**(e)** The following sections survive termination: **3 (Restrictions), 4 (Intellectual Property), 6 (Confidentiality), 10 (Warranty Disclaimer), 11 (Limitation of Liability), 12 (Indemnification), and 14 (Governing Law).**
+
+---
+
+## 14. Governing Law and Jurisdiction
+
+**(a)** This Agreement shall be governed by and construed in accordance with the laws of Spain, without regard to its conflict of laws provisions.
+
+**(b)** This Agreement is also subject to applicable European Union regulations, including but not limited to Regulation (EU) 2016/679 (GDPR) and Directive 2009/24/EC (legal protection of computer programs).
+
+**(c)** Any disputes arising under or in connection with this Agreement shall be subject to the **exclusive jurisdiction of the courts of Spain**. Both parties irrevocably submit to such jurisdiction.
+
+**(d)** If any provision of this Agreement is held to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect.
+
+---
+
+## 15. Third-Party Components
+
+The Software may include open-source software components subject to their own respective licenses. A list of such components and their licenses is available at [https://reqsock.com/third-party-licenses](https://reqsock.com/third-party-licenses).
+
+Nothing in this Agreement limits, restricts, or modifies the rights granted under those open-source licenses with respect to the applicable third-party components. However, the open-source components are provided without any warranty from Licensor.
+
+---
+
+## 16. Export Compliance
+
+Licensee shall comply with all applicable export control laws and regulations, including but not limited to EU Council Regulation (EC) No 428/2009 (Dual-Use Regulation). Licensee shall not export, re-export, or transfer the Software to any country, entity, or person prohibited by applicable export control laws.
+
+---
+
+## 17. Entire Agreement
+
+This Agreement constitutes the entire agreement between the parties with respect to the Software and supersedes all prior or contemporaneous communications, representations, understandings, or agreements, whether oral or written. No amendment to this Agreement shall be effective unless made in writing and signed by both parties.
+
+---
+
+## 18. Contact
+
+**ReqSock**
+
+| | |
+|---|---|
+| Website | [https://reqsock.com](https://reqsock.com) |
+| Legal | legal@reqsock.com |
+| Support | support@reqsock.com |
+
+---
+
+*Last updated: March 2026*
