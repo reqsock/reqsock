@@ -5,7 +5,8 @@
 <h1 align="center">ReqSock</h1>
 
 <p align="center">
-  <strong>Real-Time Malware Detection Engine for Linux Servers</strong>
+  <strong>AI-Powered Web Antimalware Engine for Linux Servers</strong><br>
+  <em>Detect & Neutralize. AI-Powered Defense.</em>
 </p>
 
 <p align="center">
@@ -14,6 +15,16 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-proprietary-red" alt="License"></a>
   <img src="https://img.shields.io/badge/platform-linux%20x86__64%20%7C%20aarch64-333" alt="Platform">
   <img src="https://img.shields.io/badge/rust-1.85%2B-orange" alt="Rust">
+</p>
+
+---
+
+ReqSock is a next-generation antimalware engine that uses artificial intelligence to detect and neutralize web threats in real-time with minimal server impact. It combines YARA signature scanning with SMART, a neural network-based heuristic engine, to identify web shells, backdoors, crypto miners, rootkits, SEO spam, and zero-day payloads across PHP, JavaScript, Python, Perl, Ruby, and HTML files — with sub-millisecond response times and near-zero resource consumption.
+
+Native plugins for **cPanel/WHM**, **DirectAdmin**, and **Plesk** integrate directly into hosting panels with real-time upload scanning, web dashboards, and one-command deployment. Built for hosting companies, agencies, and enterprises requiring fleet-wide protection.
+
+<p align="center">
+  <code>94.5% detection rate</code> · <code>< 50ms response</code> · <code>250K+ threats blocked daily</code> · <code>Deploy in under 60 seconds</code>
 </p>
 
 ---
