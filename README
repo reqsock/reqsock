@@ -1,26 +1,3 @@
-<p align="center">
-  <img src="https://reqsock.com/assets/logo.png" alt="ReqSock" width="200"/>
-</p>
-
-<h1 align="center">ReqSock</h1>
-
-<p align="center">
-  <strong>Real-Time Malware Detection Engine for Linux Servers</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/reqsock/reqsock-project/releases/latest"><img src="https://img.shields.io/github/v/release/reqsock/reqsock-project?label=release&color=0e73cc" alt="Release"></a>
-  <a href="https://reqsock.com"><img src="https://img.shields.io/badge/website-reqsock.com-0e73cc" alt="Website"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-proprietary-red" alt="License"></a>
-  <img src="https://img.shields.io/badge/platform-linux%20x86__64%20%7C%20aarch64-333" alt="Platform">
-  <img src="https://img.shields.io/badge/rust-1.85%2B-orange" alt="Rust">
-</p>
-
----
-
-ReqSock is a high-performance malware detection platform designed for production Linux servers. It combines YARA signature scanning with SMART, a neural network-based heuristic engine, to provide multi-layered threat detection with minimal performance overhead. Native plugins for cPanel, DirectAdmin, and Plesk integrate directly into hosting panels with real-time upload scanning and web dashboards.
-
----
 
 ## Table of Contents
 
