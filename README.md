@@ -586,14 +586,14 @@ ACTION;File quarantined;/var/www/html/uploader.php;php_webshell_generic
 ## Changelog
 
 ### v4.0.9 (2026-03-19)
-- SMART model v16r4: 93.7% detection, 0% FP on 518K clean files
+- SMART model v17r9: 94.5% detection, 0% FP on 2M clean files
 - Reqsock SDK: encrypted UDP communication library
 - Native plugins for cPanel/WHM, DirectAdmin, Plesk with web dashboards
 - Lock-free model hot-reload via `reqsock model update`
 - One-command installer with auto panel detection
 
 ### v4.0.8 (2026-03-17)
-- SMART engine v2: 94.5% detection, 0% FP on 2M clean files
+- SMART model v14r6: 94.5% detection, 0% FP on 2M clean files
 - mmap-based scan cache for unchanged file skipping
 - Mandatory license verification at startup
 
