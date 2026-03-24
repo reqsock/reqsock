@@ -1,9 +1,6 @@
 <p align="center">
   <img src="https://www.reqsock.com/assets/img/white-logo.svg" alt="Reqsock" width="200"/>
 </p>
-
-<h1 align="center">Reqsock</h1>
-
 <p align="center">
   <strong>AI-Powered Web Antimalware Engine for Linux Servers</strong><br>
   <em>Detect & Neutralize. AI-Powered Defense.</em>
