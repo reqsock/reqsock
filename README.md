@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://reqsock.com/assets/logo.svg" alt="Reqsock" width="200"/>
+  <img src="https://www.reqsock.com/assets/img/white-logo.svg" alt="Reqsock" width="200"/>
 </p>
 
 <h1 align="center">Reqsock</h1>
