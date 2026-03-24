@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://reqsock.com/assets/logo.png" alt="ReqSock" width="200"/>
+  <img src="https://reqsock.com/assets/logo.png" alt="Reqsock" width="200"/>
 </p>
 
-<h1 align="center">ReqSock</h1>
+<h1 align="center">Reqsock</h1>
 
 <p align="center">
   <strong>AI-Powered Web Antimalware Engine for Linux Servers</strong><br>
@@ -19,7 +19,7 @@
 
 ---
 
-ReqSock is a next-generation antimalware engine that uses artificial intelligence to detect and neutralize web threats in real-time with minimal server impact. It combines YARA signature scanning with SMART, a neural network-based heuristic engine, to identify web shells, backdoors, crypto miners, rootkits, SEO spam, and zero-day payloads across PHP, JavaScript, Python, Perl, Ruby, and HTML files — with sub-millisecond response times and near-zero resource consumption.
+Reqsock is a next-generation antimalware engine that uses artificial intelligence to detect and neutralize web threats in real-time with minimal server impact. It combines YARA signature scanning with SMART, a neural network-based heuristic engine, to identify web shells, backdoors, crypto miners, rootkits, SEO spam, and zero-day payloads across PHP, JavaScript, Python, Perl, Ruby, and HTML files — with sub-millisecond response times and near-zero resource consumption.
 
 Native plugins for **cPanel/WHM**, **DirectAdmin**, and **Plesk** integrate directly into hosting panels with real-time upload scanning, web dashboards, and one-command deployment. Built for hosting companies, agencies, and enterprises requiring fleet-wide protection.
 
@@ -38,7 +38,7 @@ Native plugins for **cPanel/WHM**, **DirectAdmin**, and **Plesk** integrate dire
 - [Quick Start](#quick-start)
 - [Configuration](#configuration)
 - [Panel Plugins](#panel-plugins)
-- [ReqSock SDK](#reqsock-sdk)
+- [Reqsock SDK](#reqsock-sdk)
 - [Architecture](#architecture)
 - [Usage Guide](#usage-guide)
 - [Recommendations](#recommendations)
@@ -343,9 +343,9 @@ All three plugins share the same 21 CLI commands and a unified web dashboard.
 
 Each plugin installs a web dashboard into its respective panel:
 
-- **cPanel/WHM** — WHM > Plugins > ReqSock Antimalware
-- **DirectAdmin** — Admin Level > ReqSock
-- **Plesk** — Extensions > ReqSock
+- **cPanel/WHM** — WHM > Plugins > Reqsock Antimalware
+- **DirectAdmin** — Admin Level > Reqsock
+- **Plesk** — Extensions > Reqsock
 
 Dashboard features:
 - Engine status with live indicators
@@ -370,7 +370,7 @@ User uploads file.php via FTP
 
 ---
 
-## ReqSock SDK
+## Reqsock SDK
 
 The SDK provides a standalone Rust library for communicating with the engine over encrypted UDP.
 
@@ -434,13 +434,13 @@ match response.verdict() {
                         └──────────────┼───────────────┘
                                        │
                               ┌────────▼────────┐
-                              │   ReqSock SDK   │
+                              │   Reqsock SDK   │
                               │  AES-256-GCM    │
                               │  UDP :10888     │
                               └────────┬────────┘
                                        │
 ┌──────────────────────────────────────┼───────────────────────────────┐
-│                            ReqSock Engine                            │
+│                            Reqsock Engine                            │
 │                                                                      │
 │  ┌────────────────────────────────────────────────────────────────┐  │
 │  │              Event System (priority-based workers)             │  │
@@ -590,7 +590,7 @@ ACTION;File quarantined;/var/www/html/uploader.php;php_webshell_generic
 
 ### v4.0.9 (2026-03-19)
 - SMART model v16r4: 93.7% detection, 0% FP on 518K clean files
-- ReqSock SDK: encrypted UDP communication library
+- Reqsock SDK: encrypted UDP communication library
 - Native plugins for cPanel/WHM, DirectAdmin, Plesk with web dashboards
 - Lock-free model hot-reload via `reqsock model update`
 - One-command installer with auto panel detection
@@ -611,7 +611,7 @@ See individual changelogs for full details.
 
 ## License
 
-Copyright (c) 2024–2026 ReqSock. All Rights Reserved.
+Copyright (c) 2024–2026 Reqsock. All Rights Reserved.
 
 This is proprietary software. Unauthorized copying, distribution, modification, reverse engineering, or use of this software is strictly prohibited. See [LICENSE](LICENSE) for the full End-User License Agreement.
 
